@@ -1,0 +1,15 @@
+Tools we are going to use
+AWS Cli
+The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts.
+
+Download link :- https://awscli.amazonaws.com/AWSCLIV2.msi
+
+Eksctl
+eksctl is a simple CLI tool for creating clusters on EKS - Amazon's new managed Kubernetes service for EC2. It is written in Go, and uses CloudFormation. Both eksctl and the AWS CLI require that you have AWS credentials configured in your environment.
+
+Download link :- https://github.com/weaveworks/eksctl/releases/download/0.23.0/eksctl_Windows_amd64.zip
+
+Kubectl
+The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs. Kubectl is automatically configured by EKS so we don't have to download it in our system .
+
+After installing all the above softwares keep them in one folder so that when we go for "edit system environment variable" to give the path of that folder where we don't have to give different path to each software, only a single path work for us.
